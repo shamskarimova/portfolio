@@ -1,0 +1,490 @@
+#nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.pageNav {
+  background: #fff;
+}
+
+.pageNav__toggler {
+  border: none !important;
+}
+
+.pageNav__brand {
+  padding-left: 30px;
+  color: #a774b6 !important;
+  font-weight: 400;
+  font-size: 30px !important;
+}
+
+.pageNav__item {
+  padding: 0px 10px;
+  margin-top: 5px;
+}
+
+.pageNav__link {
+  float: right;
+  text-transform: uppercase;
+  color: #3d3b3f;
+  font-weight: 490;
+}
+
+.pageNav__link:hover {
+  color: #a774b6 !important;
+}
+
+.homeCarousel__item img {
+  width: 100%;
+  height: 700px;
+}
+
+.homeCarousel__caption {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  bottom: initial !important;
+  font-family: 'Questrial', sans-serif;
+  line-height: 5rem;
+}
+
+.homeCarousel__caption p {
+  font-size: 50px;
+}
+
+.homeCarousel__caption span {
+  font-size: 40px;
+  font-style: italic;
+}
+
+#about {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#about h1 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #6e6d6f;
+}
+
+#about h1::after {
+  content: "";
+  border-bottom: 1px solid #6e6d6f;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+#about h1::before {
+  content: "";
+  border-bottom: 1px solid #6e6d6f;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+.aboutCol img {
+  width: 100%;
+  height: 90%;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.aboutCol p {
+  line-height: 2rem;
+}
+
+#education {
+  background-color: #a774b6;
+  margin-top: 160px;
+}
+
+#education h1 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+#education h1::after {
+  content: "";
+  border-bottom: 1px solid whitesmoke;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+#education h1::before {
+  content: "";
+  border-bottom: 1px solid whitesmoke;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+#education .educationRow__col {
+  text-align: center;
+  color: white !important;
+}
+
+#education .educationRow__col img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#education .educationRow__col h5 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#education .educationRow__col p {
+  font-size: 18px;
+}
+
+#education .educationRow__col h6 {
+  padding-bottom: 40px;
+}
+
+#skills {
+  margin-bottom: 160px;
+  margin-top: 80px;
+}
+
+#skills h1 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #6e6d6f;
+}
+
+#skills h1::after {
+  content: "";
+  border-bottom: 1px solid #6e6d6f;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+#skills h1::before {
+  content: "";
+  border-bottom: 1px solid #6e6d6f;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+.skillsRow__elements {
+  margin-top: 30px;
+}
+
+.skillsRow__progressBar {
+  background-color: #a774b6 !important;
+}
+
+#experience {
+  background-color: #a774b6;
+  margin: 80px auto;
+  padding-bottom: 30px;
+  color: white !important;
+  background: url(./Metaverse-1020x620-c-default.png) no-repeat;
+  background-size: cover;
+}
+
+#experience h1 {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+
+#experience h1::after {
+  content: "";
+  border-bottom: 1px solid whitesmoke;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+#experience h1::before {
+  content: "";
+  border-bottom: 1px solid whitesmoke;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+.experienceCard {
+  background-color: transparent !important;
+}
+
+.experienceCard__col {
+  padding-right: 0px !important;
+}
+
+.experienceCard__listTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin-left: -35px !important;
+  margin-bottom: 10px;
+}
+
+.experienceCard__listTwo li {
+  text-align: justify !important;
+}
+
+.experienceCard__listOne {
+  margin-left: -45px !important;
+}
+
+.experienceCard__listOne li {
+  text-align: justify !important;
+}
+
+.experienceCard__listOne p {
+  text-align: justify !important;
+}
+
+.experienceCard__img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#contact {
+  background-color: whitesmoke;
+}
+
+#contact h1 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #6e6d6f;
+}
+
+#contact h1::after {
+  content: "";
+  border-bottom: 1px solid #6e6d6f;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+#contact h1::before {
+  content: "";
+  border-bottom: 1px solid #6e6d6f;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+.contactRow__col input, .contactRow__col textarea {
+  display: block;
+  margin: 15px 0px;
+  width: 80%;
+  padding: 10px;
+  padding-left: 10px;
+  border: 1px solid #9e9ba1;
+  border-radius: 2px;
+}
+
+.contactRow__col textarea {
+  height: 100px;
+  border-radius: 2px;
+}
+
+.contactRow__col div {
+  display: block;
+  margin: 15px 0px;
+  width: 80%;
+  padding: 10px;
+  background-color: white;
+  padding-left: 10px;
+  border: 1px solid #9e9ba1;
+  border-radius: 2px;
+}
+
+.contactRow__col button {
+  background-color: #a774b6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.contactRow__col input:focus, .contactRow__col textarea:focus, .contactRow__col button:focus {
+  outline: none;
+  border: 1px solid #a774b6;
+}
+
+.contactRow__col i {
+  color: #a774b6;
+}
+
+#portfolio {
+  margin-bottom: 160px;
+}
+
+#portfolio h1 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #6e6d6f;
+}
+
+#portfolio h1::after {
+  content: "";
+  border-bottom: 1px solid #6e6d6f;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+#portfolio h1::before {
+  content: "";
+  border-bottom: 1px solid #6e6d6f;
+  width: 170px;
+  display: block;
+  margin: 15px auto;
+}
+
+.portfolioMenu {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.portfolioMenu ul, .portfolioMenu li {
+  margin: 0;
+  padding: 0;
+}
+
+.portfolioMenu__list {
+  display: inline;
+  list-style-type: none;
+}
+
+.portfolioMenu__list li {
+  display: inline;
+  padding: 10px 20px;
+  font-size: 25px;
+  color: #a774b6;
+  outline: 1px solid #a774b6;
+  margin: 20px;
+}
+
+.portfolioMenu__list li:hover {
+  background-color: #a774b6;
+  color: white;
+}
+
+.portfolioContent__row {
+  padding-top: 50px;
+}
+
+.portfolioContent__card {
+  width: 280px;
+  margin: 0px auto;
+}
+
+.portfolioContent__card a {
+  text-decoration: none !important;
+}
+
+.portfolioContent__card a:hover {
+  color: white;
+}
+
+.portfolioContent__buttonDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.portfolioContent__button {
+  margin-right: 10px;
+  background-color: #a774b6;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.portfolioContent__text {
+  margin-bottom: 20px;
+}
+
+#portfolio .internship {
+  display: none;
+}
+
+#portfolio .personal {
+  display: none;
+}
+
+#footer {
+  margin-top: 80px;
+  background-color: #3d3b3f;
+  padding: 40px;
+  text-align: center;
+  color: white;
+}
+
+#footer p {
+  margin-bottom: 30px;
+}
+
+#footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#footer li {
+  display: inline;
+  margin: 0px 10px;
+  padding: 10.5px 12px;
+  font-size: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+#footer li a {
+  color: white;
+}
+
+#footer li.instagram {
+  background-color: orange;
+}
+
+#footer li.facebook {
+  background-color: blue;
+}
+
+#footer li.email {
+  background-color: green;
+}
+
+a {
+  text-decoration: none !important;
+}
+/*# sourceMappingURL=portfolio.css.map */
